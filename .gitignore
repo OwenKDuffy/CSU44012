@@ -1,4 +1,15 @@
 *.png
 *.tar.gz
 /Examples
-*/*/.stack-work
+**/.stack-work
+*/*
+
+!*/src
+!*/test
+!*/app
+!*.hs
+!*.md
+!*.yaml
+!*.yaml.lock
+!*.cabal
+!**LICENSE

@@ -19,7 +19,9 @@ executable Minesweeper
   other-modules:        Funcs,
                         CreateBoard,
                         Rendering,
-                        Board
+                        Board,
+                        AutoSolver,
+                        Play
   default-language:     Haskell2010
   build-depends:        base >= 4.7 && < 5,
                         array
