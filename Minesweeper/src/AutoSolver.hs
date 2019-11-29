@@ -1,0 +1,8 @@
+-- module AutoSolver (chooseMove)
+--     where
+--
+--
+--     import Board
+--
+-- chooseMove :: [Char] -> Int
+-- chooseMove grid =
